@@ -1,51 +1,36 @@
-# AI-Image-Generator-
-AI Image Generator – A simple web app that generates images from text prompts using Google Gemini AI, built with Streamlit and deployed via Ngrok.
+# AI Media Assistant 🎥🖼️  
 
-# AI Image Generator 🎨🚀  
+An AI-powered media assistant that can **generate images, create image captions, and summarize videos** using **Google's Gemini API**. Built with **Streamlit**, this interactive web app allows users to explore AI-driven media generation and analysis effortlessly.  
 
-A simple web app that generates images from text prompts using **Google Gemini AI**, built with **Streamlit** and deployed via **Ngrok**.  
+## 🚀 Features  
+🔹 **AI Image Generator** – Generates high-quality images based on user prompts.  
+🔹 **Image Caption Generator** – Automatically generates captions for uploaded images.  
+🔹 **Video Summary Generator** – Extracts and summarizes key points from videos.  
+🔹 **Interactive Web App** – Built with **Streamlit** for easy user interaction.  
+🔹 **Deployed with ngrok** – Provides a public link to access the app.  
 
-## 📌 Features  
+## 🛠️ Tech Stack  
+- **Python** 🐍  
+- **Streamlit** (for UI)  
+- **Google Gemini API** (AI-powered image & text processing)  
+- **ngrok** (for public deployment)  
 
-✅ Enter a text prompt to generate an AI-created image  
-✅ Uses **Google Gemini API** for image generation  
-✅ Displays the generated image within the app  
-✅ Simple and interactive **Streamlit UI**  
-✅ Publicly accessible via **Ngrok**  
-
-## 🚀 Tech Stack  
-
-- **Python**
-- **Streamlit** – Web UI  
-- **Google Gemini API** – AI Image Generation  
-- **Pillow (PIL)** – Image Handling  
-- **Ngrok** – Public URL Access  
-
-## ⚡ Installation & Setup  
-
-1. **Clone the Repository**  
+## 📌 How to Run Locally  
+1. **Clone the Repository:**  
    ```bash
-   git clone https://github.com/your-username/ai-image-generator.git
-   cd ai-image-generator
+   git clone https://github.com/your-username/AI-Media-Assistant.git  
+   cd AI-Media-Assistant  
 
 
-   Install Dependencies
+Install Dependencies:
 
-pip install -r requirements.txt
-Set Up API Keys
+pip install -r requirements.txt  
 
-Add your Google Gemini API key in the script.
+Run the Application:
 
-Set up Ngrok for public access.
+streamlit run AI_Media_Assistant.py  
 
-Run the Application
+(Optional) Deploy Using ngrok:
 
-streamlit run AI_Image_Generator.py
-📷 Example Usage
-Open the app
-
-Enter a text prompt (e.g., "A futuristic city at night")
-
-Click "Manifest Image" to generate and display the AI-created image
-
-💡 Generate stunning AI images with ease! 🚀
+ngrok authtoken YOUR_NGROK_AUTH_TOKEN  
+ngrok http 8501  
